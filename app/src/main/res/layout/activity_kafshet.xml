@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.layoutfermeri.fermeri.Kafshet"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+        android:text="Gjedhe"
+        android:textSize="25dp"
+        android:id="@+id/idGjedhe"
+        android:textColor="#fff"
+        android:background="@drawable/btn_round"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/kafshet_background"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+        android:text="Dele"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:id="@+id/idDele"
+        android:background="@drawable/btn_round"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/kafshet_background"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+        android:textAllCaps="false"
+        android:text="Kuaj"
+        android:textSize="25dp"
+        android:id="@+id/idKuaj"
+        android:background="@drawable/btn_round"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/kafshet_background"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_width="340dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+        android:text="Qen"
+        android:textSize="25dp"
+        android:background="@drawable/btn_round"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+
+
+
+</LinearLayout>

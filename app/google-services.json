@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "518870015489",
+    "firebase_url": "https://fermeri-2018.firebaseio.com",
+    "project_id": "fermeri-2018",
+    "storage_bucket": "fermeri-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518870015489:android:c1492570881948d9",
+        "android_client_info": {
+          "package_name": "com.layoutfermeri.fermeri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518870015489-c2dl03a8f9asj8uamle9knl4khhp6fcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.layoutfermeri.fermeri",
+            "certificate_hash": "a7f5f5fdd3f15c739ad623a90541398ff86ce4eb"
+          }
+        },
+        {
+          "client_id": "518870015489-534s2tj8hpie35p9evqef1jfvkiqn0fg.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "518870015489-534s2tj8hpie35p9evqef1jfvkiqn0fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADny1ef21JQMvBj18xTT38bLlemF1IPnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518870015489-534s2tj8hpie35p9evqef1jfvkiqn0fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#63af38</color>
+    <color name="colorPrimaryDark">#68b439</color>
+    <color name="colorAccent">#d9d9d9</color>
+    <color name="btnRound">#00cc00</color>
+    <color name="buttonSquare">#6ac242</color>
+    <color name="kafshet_background">#fff</color>
+    <color name="btn_round_orange">#ffa31a</color>
+    #ffa31a
+
+</resources>

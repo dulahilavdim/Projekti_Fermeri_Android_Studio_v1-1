@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.layoutfermeri.fermeri.Ndihma"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikacioni fermeri është krijuar me qëllim
+lehtësimin e menaxhimit të kafshëve të fermës."
+        />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Udhezime"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menyja Kalkulatori i shtimit: "
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Në këtë dritare shfrytëzuesit i mundësohet
+kalkulimi i datës së shtimit të kafshës vetëm duke ditur datën
+e mbarësimit. Kjo bëhet duke zgjedhur fillimisht llojin e kafshes dhe
+pastaj në butonin &quot;ZGJEDH DATEN&quot; të caktohet data e mbaresimit."
+        android:layout_marginTop="110dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regjistro"
+        android:layout_marginTop="203dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Në këtë dritare shfrytëzuesit i mundësohet
+të regjistroj kafshët sipas kategorisë."
+        android:layout_marginTop="222dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kafshet"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Në këtë dritare shfrytëzuesi mund të shikoj
+të gjitha kafshët e regjistruara përmes dritares Regjistro sipas
+kategorisë. Vërejte: në secilin opsion te kafshëve ekziston
+edhe menyja e cila i mundëson që shfytëzuesi të caktojë evente
+të cilat do ti shfaqen si njoftim ne daten e caktuar."
+        android:layout_marginTop="290dp"
+        />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kontakto stafin:"
+        android:textStyle="bold"
+        android:id="@+id/idKontakti"
+        android:layout_marginTop="410dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fermeri@contact.com"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="105dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App version 1.0"
+        android:textAlignment="center"
+        android:layout_marginTop="450dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" © CopyRight 2018"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="470dp"
+
+        />
+
+
+</RelativeLayout>

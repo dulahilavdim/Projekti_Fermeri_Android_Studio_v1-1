@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/id_nav"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.layoutfermeri.fermeri.MainActivity">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:text="@string/kafshet"
+            android:layout_marginTop="135dp"
+            android:textSize="22dp"
+            android:layout_marginLeft="65dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <Button
+            android:id="@+id/idKafshet"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@drawable/hover"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/regjistro"
+            android:textSize="22dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="225dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <Button
+            android:id="@+id/idRegjistro"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@drawable/editedadd"
+            android:layout_toRightOf="@+id/idKafshet"
+            android:layout_marginTop="35dp"
+
+
+            />
+        <Button
+            android:id="@+id/idKalkulatori"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edited_calculatori"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="20dp"
+
+            />
+        <TextView
+
+            android:text="@string/llogarit"
+            android:textSize="22dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="75dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@drawable/edited_eventet"
+            android:layout_toRightOf="@+id/idKalkulatori"
+            android:layout_marginTop="190dp"
+            android:id="@+id/idEventet"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/eventet"
+            android:textSize="22dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="220dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/idAboutUs"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="Ndihma"
+            android:background="#85B200"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="340dp"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/ndihma"
+            android:textSize="22dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="140dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorAccent"
+        android:id="@+id/id_navigationview"
+        >
+
+
+
+    </android.support.design.widget.NavigationView>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

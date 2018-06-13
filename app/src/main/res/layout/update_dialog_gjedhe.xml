@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ploteso te dhenat"
+        android:textSize="22dp"
+        android:id="@+id/idTitulli"
+        />
+    <EditText
+        android:id="@+id/edtShifra"
+        android:hint="Shifra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"
+        />
+    <EditText
+        android:id="@+id/edtEmri"
+        android:hint="Emri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"/>
+    <EditText
+        android:id="@+id/edtGjinia"
+        android:hint="Gjinia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"/>
+    <EditText
+        android:id="@+id/edtNgjyra"
+        android:hint="Ngjyra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"/>
+    <Button
+        android:id="@+id/btUpdate"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="Ndrysho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

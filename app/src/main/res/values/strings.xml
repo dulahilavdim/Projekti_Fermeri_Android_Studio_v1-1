@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fermeri</string>
+    <string name="kafshet">Kafshet</string>
+    <string name="regjistro">Regjistro</string>
+    <string name="llogarit">Llogarit</string>
+    <string name="ndihma">Ndihma</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="eventet">Njoftimet</string>
+
+    <array name="eventet">
+        <item>Gjedhe</item>
+        <item>Dele</item>
+        <item>Kuaj</item>
+        <item>Qen</item>
+
+    </array>
+
+</resources>

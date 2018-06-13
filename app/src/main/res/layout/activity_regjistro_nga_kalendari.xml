@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.layoutfermeri.fermeri.regjistro_nga_kalendari">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idZgjedhNgaKalendari"
+            >
+        </CalendarView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="299dp"
+            android:background="#000"></View>
+
+        <Spinner
+            android:id="@+id/idSpiner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="300dp"
+            android:entries="@array/eventet">
+
+        </Spinner>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="329dp"
+            android:background="#000"></View>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="330dp"
+            android:hint="ID e kafshes!"
+            android:id="@+id/txtEditText"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="371dp"
+            android:background="#000"></View>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/idDatatELindjes">
+
+        </ListView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

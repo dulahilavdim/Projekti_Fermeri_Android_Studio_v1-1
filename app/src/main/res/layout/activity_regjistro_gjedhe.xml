@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.layoutfermeri.fermeri.RegjistroGjedhe"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shifra(ID):"
+        android:textSize="22dp"
+        android:id="@+id/idShifra"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/idShifra"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:imeOptions="actionNext"
+        android:id="@+id/etShifra"
+        android:inputType="textCapSentences"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emri:"
+        android:textSize="22dp"
+        android:layout_marginTop="60dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/idShifra"
+        android:layout_marginTop="55dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:imeOptions="actionNext"
+        android:id="@+id/etEmri"
+        android:inputType="textCapSentences"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gjinia:"
+        android:textSize="22dp"
+        android:layout_marginTop="120dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/idShifra"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:imeOptions="actionNext"
+        android:id="@+id/etGjinia"
+        android:inputType="textCapSentences"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngjyra:"
+        android:textSize="22dp"
+        android:layout_marginTop="180dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/idShifra"
+        android:layout_marginTop="170dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:imeOptions="actionDone"
+        android:id="@+id/etNgjyra"
+        android:inputType="textCapSentences"
+    />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/btn_round"
+        android:layout_marginTop="300dp"
+        android:text="Ruaj"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/btnRuaj"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="25dp"
+        android:text="Shfaq"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/btnShfaq"
+        android:layout_below="@+id/btnRuaj"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".Kalkulatori_Lindjes">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:background="@color/colorAccent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ju lutem zgjedheni llojin e kafshes dhe daten e fekondimit!"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+        <Button
+            android:id="@+id/btnZgjedhDaten"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Zgjedheni daten"
+           android:textColor="#fff"
+
+            android:background="@drawable/btn_round"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="195dp"
+             android:layout_marginLeft="135dp"
+
+            />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="195dp"
+            android:background="@drawable/vectorcalendar" />
+
+
+    <RadioGroup
+        android:id="@+id/rgGrup"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+
+        >
+
+        <RadioButton
+            android:id="@+id/rbGjedhe"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Gjedhe"
+            android:textColor="#000"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rbKuaj"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:text="Kuaj"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <RadioButton
+            android:id="@+id/rbQen"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Qen"
+            android:textColor="#000"
+
+            />
+
+
+        <RadioButton
+            android:id="@+id/rbDele"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Dele"
+
+            android:textColor="#000"
+
+            />
+        <RadioButton
+            android:id="@+id/rbDhi"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="Dhi"
+            android:textColor="#000"
+
+            />
+
+
+
+    </RadioGroup>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/kafshet_background"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+
+        >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="22dp"
+        android:id="@+id/tvData"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idtextview"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

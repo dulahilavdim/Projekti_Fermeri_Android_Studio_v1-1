@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idShtoGjedh"
+        android:title="Shto gjedhe"
+        android:icon="@mipmap/ic_launcher"></item>
+    <item
+        android:id="@+id/idNjoftimeGjedhe"
+        android:title="Vendos njoftime"
+        android:icon="@mipmap/ic_launcher"></item>
+    <item
+        android:id="@+id/idSortAZ"
+        android:title="Sort A→Z"
+        android:icon="@mipmap/ic_launcher"></item>
+
+
+</menu>

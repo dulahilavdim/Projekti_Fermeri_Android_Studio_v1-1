@@ -111,6 +111,7 @@ public class Databaza extends SQLiteOpenHelper {
         Cursor res = sqLiteDatabase.rawQuery("select * from "+ EMRI_TABELES1, null);
         return res;
     }
+    
 
 /*    public void deleteRecord (int id)
     {
@@ -172,6 +173,7 @@ public class Databaza extends SQLiteOpenHelper {
         args.put(KOLONA_4, ngjyra);
         db.update(EMRI_TABELES1, args, KOLONA_0 + "=" + id, null);
         return true;
+        //db
     }
 
 

@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Aplikacioni fermeri është krijuar me qëllim
 lehtësimin e menaxhimit të kafshëve të fermës."
+              
         />
 
     <TextView

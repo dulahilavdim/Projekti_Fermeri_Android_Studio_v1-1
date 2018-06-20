@@ -27,7 +27,8 @@ public class MyFirebaseMessagingService extends com.google.firebase.messaging.Fi
         sendNotification(remoteMessage.getNotification().getTitle(), remoteMessage.getNotification().getBody());
     }
 
-    //This method is only generating push notification
+    
+    //metode e cila perdoret per me dergu notification
     private void sendNotification(String title, String messageBody) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

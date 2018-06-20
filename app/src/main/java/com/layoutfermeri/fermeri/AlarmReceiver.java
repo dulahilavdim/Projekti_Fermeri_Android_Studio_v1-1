@@ -29,7 +29,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         NotificationCompat.Builder builder= new NotificationCompat.Builder(context);
         Notification notification=builder.setContentTitle("Lajmerimi")
                 .setContentText("Lajmerim i ri")
-                .setTicker("Lajmerimiiiii!")
+                .setTicker("Event sot!")
                 .setAutoCancel(true)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(pendingIntent).build();
